@@ -150,6 +150,11 @@ main{
     margin-bottom: 0.5rem;
 }
 
+.segunda-secao a{
+    text-decoration: none;
+}
+
+
 .segunda-secao p{
     color: var(--silver);
     font-size: 0.9375rem;
@@ -247,6 +252,10 @@ main{
 
     .segunda-secao h2{
         font-size: 2.5rem;
+    }
+    .segunda-secao h3:hover{
+        color: var(--yellow);
+        transition: 0.5s;
     }
 
     .terceira-secao{
